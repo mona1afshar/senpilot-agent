@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Runtime output (downloaded documents, generated ZIPs, logs)
+downloads/*
+!downloads/.gitkeep
+outbox/*
+!outbox/.gitkeep
+agent.log
+
+# macOS
+.DS_Store
